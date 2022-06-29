@@ -50,7 +50,7 @@
 	margin-bottom: 20px !important;
   }
   #mine .grid-sidebar:hover {
-	color: #1da1f2 !important;
+	color: #FFB688 !important;
 	cursor: pointer !important;
   }
   #mine .icon-sidebar-align {
@@ -87,7 +87,7 @@
   }
   #mine .button-twittear:hover {
 	transition: 0.3s;
-	background-color: #2290d4;
+	background-color: #1da1f2;
   }
   
   #mine .box-user {
@@ -1291,6 +1291,9 @@ border-radius: 10px;
 	  #mine .wrapper-left .grid-sidebar .wrapper-left-elements {
 		display: none;
 	  } 
+	  /* .wrapper-left-elements:hover{
+		color: #FFB688;
+	  } */
 	  #mine .grid-posts {
 		display: grid;
 		grid-template-columns: 100% auto;
@@ -1417,6 +1420,8 @@ border-radius: 10px;
 	  #mine .wrapper-left .grid-sidebar .wrapper-left-elements {
 		display: none;
 	  } 
+
+	
 	  #mine .grid-posts {
 		display: grid;
 		grid-template-columns: 57% auto;
@@ -1540,3 +1545,4 @@ border-radius: 10px;
 		font-size: 10px;
 	  }
   }
+

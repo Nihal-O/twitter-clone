@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/profile_style.css?v=<?php echo time(); ?>">
   
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico"> 
    
 </head>
 <body>
@@ -224,7 +224,7 @@
                                  color:white;
                                  font-size:18px " class="far fa-images position-absolute"></i> 
                                   </label>
-                                  <input id="cover-input" type="file" accept="image/*" name="cover"/>
+                                  <input id="cover-input" type="file" name="cover"/>
                                   <a href="handle/handleDeleteCover.php" style="top: 80px;
                                  left:260px;
                                  color:red;
@@ -244,7 +244,7 @@
                                  font-size:18px;
                                  z-index:20 " class="far fa-images position-absolute"></i> 
                                   </label>
-                                <input id="file-input" name="image" type="file" accept="image/*"/>
+                                <input id="file-input" name="image" type="file"/>
                             </div>
 
 
