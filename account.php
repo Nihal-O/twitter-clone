@@ -26,7 +26,7 @@ header('location: index.php');
     <!-- time function to force css file to reload -->
     
     <link rel="stylesheet" href="assets/css/profile_style.css?v=<?php echo time(); ?>">
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico"> 
    
 </head>
 <body>

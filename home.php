@@ -22,12 +22,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Twitter</title>
+    <title>Home | Petmate</title>
     
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+   <link rel="shortcut icon" type="image/png"  href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/home_style.css?v=<?php echo time(); ?>">
+     <link rel="stylesheet" href="assets/css/all.min.css">
+     <link rel="stylesheet" href="assets/css/home_style.css?v=<?php echo time(); ?>">
     
    
 </head>
@@ -91,7 +91,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="https://i.ibb.co/86d7x4Z/twitter.png" alt="" height="30px" width="30px" />
+              <img src="assets/images/1.png" alt="" height="100px" width="100px" />
             </div>
           </div>
 
@@ -152,23 +152,6 @@
             
           </div>
           </a>
-
-          <!--added search/find pet mate-->
-          </a>
-          <a href="<?php echo BASE_URL . "find.php"; ?>">
-          <div class="grid-sidebar ">
-            <div class="icon-sidebar-align">
-              <img src="https://i.ibb.co/4s08k2X/search.png" alt="" height="26.25px" width="26.25px" />
-            </div>
-  
-            <div class="wrapper-left-elements">
-              <a href="<?php echo BASE_URL . "find.php"; ?>" style="margin-top: 4px"><strong>Find Mate</strong></a>
-            </div>
-            
-          </div>
-          </a>
-
-
           <a href="includes/logout.php">
           <div class="grid-sidebar">
             <div class="icon-sidebar-align">
@@ -263,7 +246,7 @@
 
                               <i class="fa fa-image item1-pair"></i>
                             </label>
-                            <input class="tweet_img" id="tweet_img" type="file" name="tweet_img" type="file" accept="image/*">    
+                            <input class="tweet_img" id="tweet_img" type="file" name="tweet_img">    
                                 
                           </div>
                           <div class="hash-box">
