@@ -32,7 +32,7 @@
    
 </head>
 <body>
-  <!-- This is a modal for welcome the new signup account! -->
+  <!-- This is a model for welcome the new signup account! -->
 
   <script src="assets/js/jquery-3.5.1.min.js"></script>
      
@@ -64,17 +64,11 @@
       <div class="modal-body">
         <div class="text-center">
        
-        <h4 style="font-weight: 600; " >You Signup Successfuly!</h4>
+        <h4 style="font-weight: 600; " >Signup Successful!</h4>
  
         </div>
-        <p>This is Twitter clone made by <span style="font-weight: 700;">Amin Yasser</span>  for learning purpose.</p>
-        <p>The clone includes tweet , retweet , qoute or even qoute the qouted tweet , like tweet and nested comments.
-          you can mention or add hashtag to yout tweet , change password or username.
-          Follow or unfollow people. get notificaction if any action happen. Search users by name or username. and more!
+        <p>This is the website for Petmate where users can search other users by name or username, find pets and more!
         </p>
-        <p>By Signing Up then you followed
-          <a style="color:#207ce5;" href="amin">@amin</a> 
-            by default to see tweets. you can change it anytime!</p>
       </div>
       
     </div>
@@ -91,7 +85,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="assets/images/1.png" alt="" height="100px" width="100px" />
+              <img src="assets/images/1.png" alt="" height="80px" width="80px" />
             </div>
           </div>
 
@@ -164,7 +158,7 @@
           </div>
           </a>
           <button class="button-twittear">
-            <strong>Tweet</strong>
+            <strong>Post</strong>
           </button>
   
           <div class="box-user">
@@ -220,14 +214,14 @@
                         
                           <label>
             
-                            <textarea class="text-whathappen" name="status" rows="8" cols="80" placeholder="What's happening?"></textarea>
+                            <textarea class="text-whathappen" name="status" rows="8" cols="80" placeholder="Share Your Thoughts"></textarea>
                         
                         </label>
                         </div> 
                             
                          <!-- tmp image upload place -->
                         <div class="position-relative upload-photo"> 
-                          <img class="img-upload-tmp" src="assets/images/tweets/tweet-60666d6b426a1.jpg" alt="">
+                          <img class="img-upload-tmp" src="assets/images/tweets/tweet-6077e54477f73.jpg" alt="">
                           <div class="icon-bg">
                           <i id="#upload-delete-tmp" class="fas fa-times position-absolute upload-delete"></i>  
 
@@ -269,7 +263,7 @@
                           <div>
                          
                             <span class="bioCount" id="count">140</span>
-                            <input id="tweet-input" type="submit" name="tweet" value="Tweet" class="submit"
+                            <input id="tweet-input" type="submit" name="tweet" value="Post" class="submit"
                             >
                           </div>
                       </div>
@@ -302,7 +296,7 @@
           <div class="input-group py-2 m-auto pr-5 position-relative">
 
           <i id="icon-search" class="fas fa-search tryy"></i>
-          <input type="text" class="form-control search-input"  placeholder="Search Twitter">
+          <input type="text" class="form-control search-input"  placeholder="Search For Pets">
           <div class="search-result">
 
 
