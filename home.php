@@ -91,7 +91,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="assets/images/1.png" alt="" height="100px" width="100px" />
+              <img src="assets/images/1.png" alt="" height="80px" width="80px" />
             </div>
           </div>
 
