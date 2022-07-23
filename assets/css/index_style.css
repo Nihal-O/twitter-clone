@@ -139,7 +139,11 @@ body{
 .features-div{
 	margin:auto;
 	width: 370px;
-	margin-top: 230px;
+	margin-top: 550px;
+	margin-left: 58px;
+	padding-left: 30px;
+	padding-top: 30px;
+	background-color: #ffc13b7e;
 }
 .twt-icon{
 	position: relative;
