@@ -283,7 +283,7 @@
 
 
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="exampleInputEmail1" value="<?php echo $user->name; ?>" aria-describedby="emailHelp" placeholder="Name">
+                            <input type="text" name="name" class="form-control" id="exampleInputEmail1" value="<?php echo $user->name; ?>" aria-describedby="emailHelp" placeholder="Pet's name">
                             </div>
                             <div class="form-group">
                             <input type="text" name="bio" class="form-control" id="exampleInputEmail1" value="<?php if ($user->bio !== null) 

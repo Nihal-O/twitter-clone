@@ -16,7 +16,7 @@
                         <p style="font-size: 15px;" class="text-center"> <?php echo $error ; ?> </div>  <?php }  }
                         unset($_SESSION['errors_signup']) ?> </p>  
                         <div class="form-group">
-                       <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                       <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Pet's name">
                     </div>
                     <div class="form-group">
                        <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
