@@ -40,7 +40,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="https://i.ibb.co/86d7x4Z/twitter.png" alt="" height="30px" width="30px" />
+              <img src="assets\images\1.png" alt="" height="30px" width="30px" />
             </div>
           </div>
 
@@ -97,6 +97,30 @@
             <div class="wrapper-left-elements">
               <a href="<?php echo BASE_URL . "account.php"; ?>" style="margin-top: 4px"><strong>Settings</strong></a>
             </div>
+
+            <a href="<?php echo BASE_URL . "modules\search\index.php"; ?>">
+          <div class="grid-sidebar ">
+            <div class="icon-sidebar-align">
+              <img src="https://i.ibb.co/4s08k2X/search.png" alt="" height="26.25px" width="26.25px" />
+            </div>
+            <div class="wrapper-left-elements">
+              <a href="<?php echo BASE_URL . "modules\search\index.php"; ?>" style="margin-top: 4px"><strong>Find Mate</strong></a>
+            </div>
+            
+          </div>
+          </a>
+
+          <a href="<?php echo BASE_URL . "modules\PHP-Messenger-master\index.php"; ?>">
+          <div class="grid-sidebar ">
+            <div class="icon-sidebar-align">
+              <img src="assets\images\msg_icon.png" alt="" height="26.25px" width="26.25px" />
+            </div>
+            <div class="wrapper-left-elements">
+              <a href="<?php echo BASE_URL . "modules\PHP-Messenger-master\index.php"; ?>" style="margin-top: 4px"><strong>Direct Message</strong></a>
+            </div>
+            
+          </div>
+          </a>
            
             
           </div>
@@ -112,9 +136,6 @@
             </div>
           </div>
           </a>
-          <button class="button-twittear">
-            <strong>Tweet</strong>
-          </button>
   
           <div class="box-user">
             <div class="grid-user">
@@ -160,7 +181,7 @@
                        </div>
                        <div class="col-xs-10 mt-1">
                            <p class="tweet-name" style="
-                           font-weight:700"> Tweet</p>
+                           font-weight:700">POST</p>
                           
                       </div>
                
@@ -682,7 +703,7 @@
           <div class="input-group py-2 m-auto pr-5 position-relative">
 
           <i id="icon-search" class="fas fa-search tryy"></i>
-          <input type="text" class="form-control search-input"  placeholder="Search Twitter">
+          <input type="text" class="form-control search-input"  placeholder="Search For Pet's">
           <div class="search-result">
 
 

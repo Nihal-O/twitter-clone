@@ -148,25 +148,25 @@
           </div>
           </a>
 
-          <a href="<?php echo BASE_URL . "find.php"; ?>">
+          <a href="<?php echo BASE_URL . "modules\search\index.php"; ?>">
           <div class="grid-sidebar ">
             <div class="icon-sidebar-align">
               <img src="https://i.ibb.co/4s08k2X/search.png" alt="" height="26.25px" width="26.25px" />
             </div>
             <div class="wrapper-left-elements">
-              <a href="<?php echo BASE_URL . "find.php"; ?>" style="margin-top: 4px"><strong>Find Mate</strong></a>
+              <a href="<?php echo BASE_URL . "modules\search\index.php"; ?>" style="margin-top: 4px"><strong>Find Mate</strong></a>
             </div>
             
           </div>
           </a>
           
-          <a href="<?php echo BASE_URL . "find.php"; ?>">
+          <a href="<?php echo BASE_URL . "modules\PHP-Messenger-master\index.php"; ?>">
           <div class="grid-sidebar ">
             <div class="icon-sidebar-align">
               <img src="assets\images\msg_icon.png" alt="" height="26.25px" width="26.25px" />
             </div>
             <div class="wrapper-left-elements">
-              <a href="<?php echo BASE_URL . "find.php"; ?>" style="margin-top: 4px"><strong>Direct Message</strong></a>
+              <a href="<?php echo BASE_URL . "modules\PHP-Messenger-master\index.php"; ?>" style="margin-top: 4px"><strong>Direct Message</strong></a>
             </div>
             
           </div>
