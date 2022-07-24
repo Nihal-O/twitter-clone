@@ -115,6 +115,18 @@
           </div>
           </a>
 
+          <a href="<?php echo BASE_URL . "find.php"; ?>">
+          <div class="grid-sidebar ">
+            <div class="icon-sidebar-align">
+              <img src="assets\images\msg_icon.png" alt="" height="26.25px" width="26.25px" />
+            </div>
+            <div class="wrapper-left-elements">
+              <a href="<?php echo BASE_URL . "find.php"; ?>" style="margin-top: 4px"><strong>Direct Message</strong></a>
+            </div>
+            
+          </div>
+          </a>
+
 
 
           <a href="includes/logout.php">
@@ -127,10 +139,9 @@
             </div>
           </div>
           </a>
-          <button class="button-twittear">
+           <!--<button class="button-twittear">
             <strong>Post</strong>
-          </button>
-  
+          </button>-->
           <div class="box-user">
             <div class="grid-user">
               <div>
@@ -254,20 +265,22 @@
         <div class="wrapper-right">
             <div style="width: 90%;" class="container">
 
-            <div class="input-group py-2 m-auto pr-5 position-relative">
+          <div class="input-group py-2 m-auto pr-5 position-relative">
 
-            <i id="icon-search" class="fas fa-search tryy"></i>
-            <input type="text" class="form-control search-input"  placeholder="Search For Pets">
-            <div class="search-result">
-
-
-            </div>
-            </div>
-            </div>
+          <i id="icon-search" class="fas fa-search tryy"></i>
+          <input type="text" class="form-control search-input"  placeholder="Search For Pets">
+          <div class="search-result">
 
 
+          </div>
+          </div>
+          </div>
 
-            <div class="box-share">
+
+       
+
+            
+          <div class="box-share">
             <p class="txt-share"><strong>Who to follow</strong></p>
             <?php 
             foreach($who_users as $user) { 
@@ -291,14 +304,14 @@
                       <p class="username">@<?php echo $user->username; ?>
                       <?php if (Follow::FollowsYou($user->id , $user_id)) { ?>
                   <span class="ml-1 follows-you">Follows You</span></p>
-                  <?php } ?></p></p>
+                  <?php } ?></p>
                     </div>
                     <div>
                       <button class="follow-btn follow-btn-m 
                       <?= $user_follow ? 'following' : 'follow' ?>"
                       data-follow="<?php echo $user->id; ?>"
                       data-user="<?php echo $user_id; ?>"
-                      data-profile="<?php echo $profileData->id; ?>"
+                      data-profile="<?php echo $u_id; ?>"
                       style="font-weight: 700;">
                       <?php if($user_follow) { ?>
                         Following 

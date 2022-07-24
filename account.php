@@ -114,6 +114,19 @@ header('location: index.php');
           </a>
 
 
+          <a href="<?php echo BASE_URL . "find.php"; ?>">
+          <div class="grid-sidebar ">
+            <div class="icon-sidebar-align">
+              <img src="assets\images\msg_icon.png" alt="" height="26.25px" width="26.25px" />
+            </div>
+            <div class="wrapper-left-elements">
+              <a href="<?php echo BASE_URL . "find.php"; ?>" style="margin-top: 4px"><strong>Direct Message</strong></a>
+            </div>
+            
+          </div>
+          </a>
+
+
           <a href="includes/logout.php">
           <div class="grid-sidebar">
             <div class="icon-sidebar-align">
@@ -125,9 +138,9 @@ header('location: index.php');
             </div>
           </div>
           </a>
-          <button class="button-twittear">
+          <!--<button class="button-twittear">
             <strong>Post</strong>
-          </button>
+          </button>-->
   
           <div class="box-user">
             <div class="grid-user">

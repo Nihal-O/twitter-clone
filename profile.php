@@ -124,6 +124,18 @@
           </div>
           </a>
 
+          <a href="<?php echo BASE_URL . "find.php"; ?>">
+          <div class="grid-sidebar ">
+            <div class="icon-sidebar-align">
+              <img src="assets\images\msg_icon.png" alt="" height="26.25px" width="26.25px" />
+            </div>
+            <div class="wrapper-left-elements">
+              <a href="<?php echo BASE_URL . "find.php"; ?>" style="margin-top: 4px"><strong>Direct Message</strong></a>
+            </div>
+            
+          </div>
+          </a>
+
           <a href="includes/logout.php">
           <div class="grid-sidebar">
             <div class="icon-sidebar-align">
@@ -135,9 +147,9 @@
             </div>
           </div>
           </a>
-          <button class="button-twittear">
+           <!--<button class="button-twittear">
             <strong>Post</strong>
-          </button>
+          </button>-->
   
           <div class="box-user">
             <div class="grid-user">
@@ -373,7 +385,7 @@
                      <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
                        <li class="nav-item">
                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                           Tweets</a>
+                           Posts</a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
